@@ -1,0 +1,40 @@
+{
+  "name": "js-react-redux-env",
+  "version": "1.0.0",
+  "description": "React Redux Environment",
+  "scripts": {
+    "start": "babel-node src",
+    "test": "eslint src && flow && jest --coverage",
+    "precommit": "yarn test",
+    "prepush": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonwjudge/js-react-redux-env.git"
+  },
+  "author": "Jon Judge",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "color": "^1.0.3"
+  },
+  "browserslist": [
+    "> 1%"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-compat": "^1.0.2",
+    "eslint-plugin-flowtype": "^2.34.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "flow-bin": "^0.48.0",
+    "jest": "^20.0.4"
+  }
+}
