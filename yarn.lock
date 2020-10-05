@@ -1159,7 +1159,7 @@ browserify-sign@^4.0.0:
     browserify-rsa "^4.0.0"
     create-hash "^1.1.0"
     create-hmac "^1.1.2"
-    elliptic "^6.0.0"
+    elliptic "^6.5.3"
     inherits "^2.0.1"
     parse-asn1 "^5.0.0"
 
@@ -1613,7 +1613,7 @@ create-ecdh@^4.0.0:
   resolved "https://registry.yarnpkg.com/create-ecdh/-/create-ecdh-4.0.0.tgz#888c723596cdf7612f6498233eebd7a35301737d"
   dependencies:
     bn.js "^4.1.0"
-    elliptic "^6.0.0"
+    elliptic "^6.5.3"
 
 create-hash@^1.1.0, create-hash@^1.1.1:
   version "1.1.2"
@@ -1949,8 +1949,8 @@ electron-to-chromium@^1.1.0, electron-to-chromium@^1.2.3, electron-to-chromium@^
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.2.6.tgz#f38ad51d1919b06bc07275c62629db803ddca05a"
 
-elliptic@^6.0.0:
-  version "6.4.0"
+elliptic@^6.5.3:
+  version "6.5.3"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.0.tgz#cac9af8762c85836187003c8dfe193e5e2eae5df"
   dependencies:
     bn.js "^4.4.0"
