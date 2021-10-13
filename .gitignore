@@ -4,6 +4,7 @@ node_modules/
 /coverage/
 /lib/
 /dist/
+/json/
 
 # Heroku (remove if you're using the no-service boilerplate)
 /.env
