@@ -30,5 +30,5 @@ const setUpSocket = (store: Object) => {
   })
 }
 /* eslint-enable no-console */
-
+/* default client set up for socket */
 export default setUpSocket
