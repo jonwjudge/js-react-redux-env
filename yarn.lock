@@ -1605,7 +1605,7 @@ coveralls@^2.12.0:
     js-yaml "3.6.1"
     lcov-parse "0.0.10"
     log-driver "1.2.5"
-    minimist "1.2.0"
+    minimist "1.2.5"
     request "2.79.0"
 
 create-ecdh@^4.0.0:
